@@ -1,4 +1,4 @@
-FROM gberube/public:mirror
+FROM gberube/main:railways-anas
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
